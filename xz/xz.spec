@@ -1,18 +1,12 @@
-### EL6 ships with xz-4.999.9-0.3.beta.20091007git.el6
-### EL5 ships with xz-4.999.9-0.3.beta.20091007git.el5
-# ExclusiveDist: el2 el3 el4
-
-%define git_date 20091007
-
 Summary: LZMA compression utilities
 Name: xz
-Version: 4.999.9
-Release: 0.2.beta.%{git_date}git%{?dist}
+Version: 5.0.5
+Release: 1{?dist}
 License: LGPLv2+
 Group: Applications/File
 URL: http://tukaani.org/xz/
 
-Source: http://tukaani.org/xz/xz-%{version}beta.%{git_date}git.tar.bz2
+Source: http://tukaani.org/xz/xz-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 Requires: xz-libs = %{version}-%{release}
