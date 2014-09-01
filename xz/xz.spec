@@ -1,7 +1,7 @@
 Summary: LZMA compression utilities
 Name: xz
 Version: 5.0.5
-Release: 1{?dist}
+Release: 1%{?dist}
 License: LGPLv2+
 Group: Applications/File
 URL: http://tukaani.org/xz/
