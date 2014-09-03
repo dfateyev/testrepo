@@ -52,7 +52,7 @@ The lzma-compat package contains compatibility links for older
 commands that deal with the older LZMA format.
 
 %prep
-%setup -n %{name}-%{version}beta
+%setup -n %{name}-%{version}
 %{__perl} -pi -e '
         s|^hardcode_libdir_flag_spec=.*|hardcode_libdir_flag_spec=""|g;
         s|^runpath_var=LD_RUN_PATH|runpath_var=DIE_RPATH_DIE|g;
@@ -105,5 +105,8 @@ LD_LIBRARY_PATH="$PWD/src/liblzma/.libs" %{__make} check
 %{_bindir}/*lz*
 
 %changelog
+* Wed Sep 03 2014 Denis Fateyev <denis@fateyev.com> - 5.0.5-1
+- Rebuild 5.0.5
+
 * Tue Jul 20 2010 Dag Wieers <dag@wieers.com> - 4.999.9-0.3.beta.20091007
 - Initial package. (using DAR)
