@@ -11,10 +11,12 @@ Installation
 
 If you are a Fedora or RedHat Enterprise Linux (RHEL) user, you can install 'libwhirlpool' package from standard repositories:
   * Fedora 22+: "dnf install libwhirlpool"
-  * RHEL, CentOS, etc: you need to enable EPEL repository and issue command "yum install libwhirlpool"
+  * RHEL, CentOS, etc: you need to enable EPEL repository and issue command
+    "yum install libwhirlpool"
 
 For other systems:
-  * Get the source from https://github.com/dfateyev/libwhirlpool (clone repository, or grab a release tarball)
+  * Get the source from https://github.com/dfateyev/libwhirlpool
+    (clone repository, or grab a release tarball)
   * Unpack the downloaded tarball if required
   * Configure and build, as usual:
       ./configure  (see "./configure --help" for all available options)
